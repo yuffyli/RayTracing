@@ -26,6 +26,10 @@
 		8D24827E23501B88000AECD3 /* RayTracingInOneWeekend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracingInOneWeekend; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D24828123501B88000AECD3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8D24828823519C43000AECD3 /* vec3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
+		8D2830A5235F4579000BE60D /* ray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
+		8D2830A6235F4633000BE60D /* hitable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hitable.h; sourceTree = "<group>"; };
+		8D2830A7235F471B000BE60D /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		8D2830A8235F474E000BE60D /* sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,10 @@
 			children = (
 				8D24828123501B88000AECD3 /* main.cpp */,
 				8D24828823519C43000AECD3 /* vec3.h */,
+				8D2830A5235F4579000BE60D /* ray.h */,
+				8D2830A6235F4633000BE60D /* hitable.h */,
+				8D2830A7235F471B000BE60D /* camera.h */,
+				8D2830A8235F474E000BE60D /* sphere.h */,
 			);
 			path = RayTracingInOneWeekend;
 			sourceTree = "<group>";
